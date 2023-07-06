@@ -1,0 +1,62 @@
+body{
+background:url(fon3.jpg);
+background-position: bottom;
+background-size:cover;
+}
+#error{
+	color:white;
+	font-size:900%;
+	font-family: 'Fruktur', cursive;
+	position: absolute;
+        top: 30%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+#search{
+position: absolute;
+        top: 80%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+		width:30%;
+		border:1px solid;
+}
+#inp_to_search{
+width:90%;
+border:none;
+float:left;
+outline:none;
+}
+#go_search{
+width:10%;
+outline:none;
+
+float:right;;
+border:none;
+background-color:white;
+cursor:pointer;
+}
+#oops{
+	color:grey;
+	position: absolute;
+       top: 47%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);	font-size:130%;
+	
+}
+#gg{
+font-size:130%;
+color:gray;
+position: absolute;
+bottom:23%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);	font-size:130%;
+}
+#home{
+color:white;
+cursor:pointer;
+text-decoration:underline;
+}
